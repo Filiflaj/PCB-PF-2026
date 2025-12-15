@@ -2,13 +2,161 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid e43bdb00-0361-4443-9d5e-f3172f2bdbab)
+	(uuid "e43bdb00-0361-4443-9d5e-f3172f2bdbab")
 	(paper "A4")
+	(title_block
+		(title "PF 2026")
+		(date "2025-12-15")
+		(rev "R1.0")
+		(comment 1 "MAIN PAGE")
+	)
 	(lib_symbols)
+	(sheet
+		(at 134.62 95.25)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "057270b4-b02f-43ad-9747-a21820cbc165")
+		(property "Sheetname" "LED"
+			(at 134.62 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PF-2026-2.kicad_sch"
+			(at 134.62 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PF-2026"
+				(path "/e43bdb00-0361-4443-9d5e-f3172f2bdbab"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 95.25)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3cbe59c8-cc3a-4c31-8e04-70ca86ea2bf5")
+		(property "Sheetname" "LED2"
+			(at 167.64 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PF-2026-3.kicad_sch"
+			(at 167.64 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PF-2026"
+				(path "/e43bdb00-0361-4443-9d5e-f3172f2bdbab"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 95.25)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d95d0ea4-7d57-4603-9254-b961e045e4df")
+		(property "Sheetname" "MCU"
+			(at 101.6 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PF-2026-1.kicad_sch"
+			(at 101.6 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PF-2026"
+				(path "/e43bdb00-0361-4443-9d5e-f3172f2bdbab"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "beehive-sheet.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WBNBA0NAObSPiEQ8TY8rmQ1TQA3ojsLeCN/NJoS2UR9mtb5wR4RALBEUAE0ADUAMwC+seVr
+				/KPngcjLe0mpwuxmxm9B70RydsbvZb8eRg8kYbVWq6JVX2zL7JjogUpLpgO9z1qi7aN3ZyfjDoku
+				i2ybxgm0wd9LzJ78iP/xhMRfCW2mta8Nszd2T3FRuipFu/Kgzfi1onRRtQMOua7Zitl/fRzxFz10
+				gmSPw6M99B7W1OD1qz97X4IinrQ0s//VZvvnPdBfTLGaXl1ics6QRGG1L1qt6SrUrrDqP89VV1jl
+				GhmD4UAQKmuiVluDuuA0jhOYoG2AoAN498pGqA2HtmmSDIIJRKAxqWNKGVFckEqbAVCGyKkyDz38
+				mLKmNbqiyYAzHFNgahiUgYPssQQtGKixqfXggh3kqwwXp5YZt9w0iTk/KwFK7EKg38y/UBoeiyAQ
+				8QLeHe8ZJxVe5edgnk3e4omdt6MFWccUnnRbK7FfA1DpE1uI4IY2UlVI2dlkXyhzwyzgNDt2RGeV
+				9bbxCvTQYhcnjsYrdcKWRHxx3HjHhQ4RGx+rCg==|
+			)
+			(checksum "0AC5A429621149C2255727100BF3DF93")
+		)
+	)
 )
