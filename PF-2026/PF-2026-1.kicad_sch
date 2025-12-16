@@ -434,336 +434,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bc-protection:D-PESD5V0U1BB"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -2.032 0 90)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" "PESD5V0U1BB"
-				(at 2.032 0 90)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Footprint" "bc-protection:PESDX_R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "ESD Suppressor 5.0V bidirectional 3.5pF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Package Description" "SOD523"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mounting Technology" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Name" "Nexperia"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number" "PESD5V0U1BB,115"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Name" "Mouser"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Number" "771-PESD5V0U1BBT/R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "BCPN" "BC-D-PESD5V0U1BB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D-PESD5V0U1BB_1_0"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "C1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "C2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "bh-capacitor:C-0402-100NF"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1733,14 +1403,14 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "A"
+					(name "2"
 						(effects
 							(font
 								(size 0 0)
 							)
 						)
 					)
-					(number "A"
+					(number "2"
 						(effects
 							(font
 								(size 0 0)
@@ -1751,14 +1421,14 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "C"
+					(name "1"
 						(effects
 							(font
 								(size 0 0)
 							)
 						)
 					)
-					(number "C"
+					(number "1"
 						(effects
 							(font
 								(size 0 0)
@@ -4875,16 +4545,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 109.22) (xy 99.06 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ac9b8bd-6548-4ef6-807d-a3e4d52a9ed5")
-	)
-	(wire
-		(pts
 			(xy 224.79 85.09) (xy 233.68 85.09)
 		)
 		(stroke
@@ -5295,16 +4955,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 99.06) (xy 99.06 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4736a98-c783-4749-9c0e-69455c536e6b")
-	)
-	(wire
-		(pts
 			(xy 224.79 76.2) (xy 233.68 76.2)
 		)
 		(stroke
@@ -5643,6 +5293,28 @@
 		)
 		(uuid "ed2af3e0-97a4-4846-978d-d734e203ea14")
 	)
+	(global_label "IO3"
+		(shape input)
+		(at 233.68 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42a833f5-8e7c-41f3-be85-b5f56a7e0a2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.81 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "bh-supply:GND")
 		(at 88.9 114.3 0)
@@ -5654,7 +5326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01249096-fb92-4869-9824-6ccf4327d505")
-		(property "Reference" "GND011"
+		(property "Reference" "#GND011"
 			(at 88.9 114.3 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5707,7 +5379,7 @@
 		(instances
 			(project "PF-2026"
 				(path "/e43bdb00-0361-4443-9d5e-f3172f2bdbab/d95d0ea4-7d57-4603-9254-b961e045e4df"
-					(reference "GND011")
+					(reference "#GND011")
 					(unit 1)
 				)
 			)
@@ -5723,7 +5395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0776dcf8-e2f9-4db6-94ba-a45571870b86")
-		(property "Reference" "GND04"
+		(property "Reference" "#GND04"
 			(at 113.03 114.3 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5776,7 +5448,7 @@
 		(instances
 			(project "PF-2026"
 				(path "/e43bdb00-0361-4443-9d5e-f3172f2bdbab/d95d0ea4-7d57-4603-9254-b961e045e4df"
-					(reference "GND04")
+					(reference "#GND04")
 					(unit 1)
 				)
 			)
@@ -5996,7 +5668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23009e00-4625-419c-bff7-5e78508ee2ca")
-		(property "Reference" "GND06"
+		(property "Reference" "#GND06"
 			(at 156.21 114.3 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6049,7 +5721,7 @@
 		(instances
 			(project "PF-2026"
 				(path "/e43bdb00-0361-4443-9d5e-f3172f2bdbab/d95d0ea4-7d57-4603-9254-b961e045e4df"
-					(reference "GND06")
+					(reference "#GND06")
 					(unit 1)
 				)
 			)
@@ -6065,7 +5737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27ab7129-809f-4b49-b7a6-8550d9d343d2")
-		(property "Reference" "GND01"
+		(property "Reference" "#GND01"
 			(at 138.43 114.3 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6118,7 +5790,7 @@
 		(instances
 			(project ""
 				(path "/e43bdb00-0361-4443-9d5e-f3172f2bdbab/d95d0ea4-7d57-4603-9254-b961e045e4df"
-					(reference "GND01")
+					(reference "#GND01")
 					(unit 1)
 				)
 			)
@@ -6609,7 +6281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "491c1bb5-a405-49b8-b49f-42bd9ef264a2")
-		(property "Reference" "+5V03"
+		(property "Reference" "#+5V03"
 			(at 163.83 140.97 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6662,75 +6334,7 @@
 		(instances
 			(project "PF-2026"
 				(path "/e43bdb00-0361-4443-9d5e-f3172f2bdbab/d95d0ea4-7d57-4603-9254-b961e045e4df"
-					(reference "+5V03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bh-testpoint:TP-1.0-MM")
-		(at 233.68 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a723613-0a68-485e-97b4-0a429d5f09e8")
-		(property "Reference" "TP13"
-			(at 240.665 90.17 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 233.68 90.17 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "bh-testpoint:TP-1.0-MM"
-			(at 233.68 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "0"
-			(uuid "62a54bdc-60af-4ff9-ad0c-fd78d90dadaf")
-		)
-		(instances
-			(project "PF-2026"
-				(path "/e43bdb00-0361-4443-9d5e-f3172f2bdbab/d95d0ea4-7d57-4603-9254-b961e045e4df"
-					(reference "TP13")
+					(reference "#+5V03")
 					(unit 1)
 				)
 			)
@@ -6746,7 +6350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bbc9ab2-908c-42a8-a45a-136ed8055f18")
-		(property "Reference" "GND09"
+		(property "Reference" "#GND09"
 			(at 139.7 161.29 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6799,7 +6403,7 @@
 		(instances
 			(project "PF-2026"
 				(path "/e43bdb00-0361-4443-9d5e-f3172f2bdbab/d95d0ea4-7d57-4603-9254-b961e045e4df"
-					(reference "GND09")
+					(reference "#GND09")
 					(unit 1)
 				)
 			)
@@ -7369,7 +6973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b6b8219-3a45-4228-866f-a41736d0ef4b")
-		(property "Reference" "GND05"
+		(property "Reference" "#GND05"
 			(at 170.18 114.3 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7422,7 +7026,7 @@
 		(instances
 			(project "PF-2026"
 				(path "/e43bdb00-0361-4443-9d5e-f3172f2bdbab/d95d0ea4-7d57-4603-9254-b961e045e4df"
-					(reference "GND05")
+					(reference "#GND05")
 					(unit 1)
 				)
 			)
@@ -7438,7 +7042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b6da82a-2ca8-4e1f-87f3-9c9eb1d9765f")
-		(property "Reference" "GND02"
+		(property "Reference" "#GND02"
 			(at 129.54 114.3 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7491,7 +7095,7 @@
 		(instances
 			(project "PF-2026"
 				(path "/e43bdb00-0361-4443-9d5e-f3172f2bdbab/d95d0ea4-7d57-4603-9254-b961e045e4df"
-					(reference "GND02")
+					(reference "#GND02")
 					(unit 1)
 				)
 			)
@@ -7507,7 +7111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dce6123-1e84-4078-9b99-b371be089b00")
-		(property "Reference" "GND07"
+		(property "Reference" "#GND07"
 			(at 162.56 114.3 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7560,7 +7164,7 @@
 		(instances
 			(project "PF-2026"
 				(path "/e43bdb00-0361-4443-9d5e-f3172f2bdbab/d95d0ea4-7d57-4603-9254-b961e045e4df"
-					(reference "GND07")
+					(reference "#GND07")
 					(unit 1)
 				)
 			)
@@ -8026,7 +7630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75b67220-4de4-40f2-a93c-8aa3e17e224c")
-		(property "Reference" "+5V02"
+		(property "Reference" "#+5V02"
 			(at 139.7 140.97 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8079,7 +7683,7 @@
 		(instances
 			(project "PF-2026"
 				(path "/e43bdb00-0361-4443-9d5e-f3172f2bdbab/d95d0ea4-7d57-4603-9254-b961e045e4df"
-					(reference "+5V02")
+					(reference "#+5V02")
 					(unit 1)
 				)
 			)
@@ -8148,76 +7752,6 @@
 			(project "PF-2026"
 				(path "/e43bdb00-0361-4443-9d5e-f3172f2bdbab/d95d0ea4-7d57-4603-9254-b961e045e4df"
 					(reference "TP18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bh-supply:GND")
-		(at 99.06 114.3 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a914c14-bd80-4b37-aa5e-00246bb13288")
-		(property "Reference" "GND014"
-			(at 99.06 114.3 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 115.062 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1682bb42-683b-4ec5-84f7-0dcf9c499bf5")
-		)
-		(instances
-			(project "PF-2026"
-				(path "/e43bdb00-0361-4443-9d5e-f3172f2bdbab/d95d0ea4-7d57-4603-9254-b961e045e4df"
-					(reference "GND014")
 					(unit 1)
 				)
 			)
@@ -9085,7 +8619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6a36fc3-ccac-4f36-a6c6-9091c2f28927")
-		(property "Reference" "GND012"
+		(property "Reference" "#GND012"
 			(at 62.23 114.3 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9138,7 +8672,7 @@
 		(instances
 			(project "PF-2026"
 				(path "/e43bdb00-0361-4443-9d5e-f3172f2bdbab/d95d0ea4-7d57-4603-9254-b961e045e4df"
-					(reference "GND012")
+					(reference "#GND012")
 					(unit 1)
 				)
 			)
@@ -9417,142 +8951,6 @@
 		)
 	)
 	(symbol
-		(lib_id "bc-protection:D-PESD5V0U1BB")
-		(at 99.06 104.14 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bcd68d73-55c6-4bff-8aa8-b0a75fd0883b")
-		(property "Reference" "D1"
-			(at 97.028 104.14 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "PESD5V0U1BB"
-			(at 101.092 104.14 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" "bc-protection:PESDX_R"
-			(at 99.06 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Suppressor 5.0V bidirectional 3.5pF"
-			(at 99.06 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package Description" "SOD523"
-			(at 99.06 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mounting Technology" "SMT"
-			(at 99.06 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" "Nexperia"
-			(at 99.06 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "PESD5V0U1BB,115"
-			(at 99.06 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Name" "Mouser"
-			(at 99.06 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "771-PESD5V0U1BBT/R"
-			(at 99.06 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "BCPN" "BC-D-PESD5V0U1BB"
-			(at 99.06 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea1b1d0f-fa68-4d5f-bc47-da600bcc55a7")
-		)
-		(pin "2"
-			(uuid "552eef20-61fe-4c66-8784-937e71c7b46a")
-		)
-		(instances
-			(project ""
-				(path "/e43bdb00-0361-4443-9d5e-f3172f2bdbab/d95d0ea4-7d57-4603-9254-b961e045e4df"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bh-testpoint:TP-1.0-MM")
 		(at 233.68 57.15 0)
 		(unit 1)
@@ -9631,7 +9029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2139f8f-3296-40d5-b8d1-062200bff3cc")
-		(property "Reference" "GND013"
+		(property "Reference" "#GND013"
 			(at 54.61 114.3 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9684,7 +9082,7 @@
 		(instances
 			(project "PF-2026"
 				(path "/e43bdb00-0361-4443-9d5e-f3172f2bdbab/d95d0ea4-7d57-4603-9254-b961e045e4df"
-					(reference "GND013")
+					(reference "#GND013")
 					(unit 1)
 				)
 			)
@@ -9836,7 +9234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec2a50ba-c694-4513-942c-5fe6e2b147c5")
-		(property "Reference" "GND03"
+		(property "Reference" "#GND03"
 			(at 186.69 114.3 0)
 			(do_not_autoplace yes)
 			(effects
@@ -9889,7 +9287,7 @@
 		(instances
 			(project "PF-2026"
 				(path "/e43bdb00-0361-4443-9d5e-f3172f2bdbab/d95d0ea4-7d57-4603-9254-b961e045e4df"
-					(reference "GND03")
+					(reference "#GND03")
 					(unit 1)
 				)
 			)
@@ -10108,7 +9506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f08d24d6-766b-42c8-ac49-fa832049e54b")
-		(property "Reference" "GND08"
+		(property "Reference" "#GND08"
 			(at 177.8 114.3 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10161,7 +9559,7 @@
 		(instances
 			(project "PF-2026"
 				(path "/e43bdb00-0361-4443-9d5e-f3172f2bdbab/d95d0ea4-7d57-4603-9254-b961e045e4df"
-					(reference "GND08")
+					(reference "#GND08")
 					(unit 1)
 				)
 			)
@@ -10224,10 +9622,10 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "090bc72e-8e27-4455-a541-c87d4753d067")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "f85e9253-c052-424f-82a4-354e59274ef9")
 		)
 		(instances
@@ -10249,7 +9647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f708f196-1838-4522-8410-52b751ced4ec")
-		(property "Reference" "+5V01"
+		(property "Reference" "#+5V01"
 			(at 99.06 54.61 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10302,7 +9700,7 @@
 		(instances
 			(project "PF-2026"
 				(path "/e43bdb00-0361-4443-9d5e-f3172f2bdbab/d95d0ea4-7d57-4603-9254-b961e045e4df"
-					(reference "+5V01")
+					(reference "#+5V01")
 					(unit 1)
 				)
 			)
@@ -10318,7 +9716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff9820f1-925a-4bc7-bcb8-855dc6c10a42")
-		(property "Reference" "GND010"
+		(property "Reference" "#GND010"
 			(at 163.83 161.29 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10371,7 +9769,7 @@
 		(instances
 			(project "PF-2026"
 				(path "/e43bdb00-0361-4443-9d5e-f3172f2bdbab/d95d0ea4-7d57-4603-9254-b961e045e4df"
-					(reference "GND010")
+					(reference "#GND010")
 					(unit 1)
 				)
 			)
