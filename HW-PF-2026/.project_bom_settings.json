@@ -1,0 +1,22 @@
+{
+  "filename": "PF-2026_bom",
+  "format_index": 4,
+  "skip_dnp": true,
+  "skip_tp": true,
+  "skip_mh": true,
+  "skip_fiducial": true,
+  "custom_prefixes": "",
+  "group_by_value": true,
+  "include_footprint": true,
+  "include_datasheet": true,
+  "include_position": true,
+  "group_by_value_col": true,
+  "group_by_footprint": true,
+  "group_by_description": false,
+  "group_by_package_desc": false,
+  "group_by_mounting": false,
+  "group_by_mfr_name": false,
+  "group_by_mfr_pn": false,
+  "group_by_supplier_name": false,
+  "group_by_supplier_pn": false
+}
