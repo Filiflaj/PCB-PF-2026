@@ -6,9 +6,11 @@ This project is built around the **ATmega328P-AU** microcontroller, making it fu
 
 ---
 
-## 📷 Media
+## 📷 Preview
 
-> ![PF 2026 Board Assembled](https://)
+<img src="PCB-PF-2026.jpg" alt="PF 2026 Board Assembled" width="600">
+
+*Finished and assembled PCB with the sparkling effect.*
 
 ---
 
@@ -19,7 +21,7 @@ This project is built around the **ATmega328P-AU** microcontroller, making it fu
 * **LED Pin:** Connected to **PD3** (Digital Pin **3** in Arduino IDE).
 * **Interfaces:** * Standard **ICSP** header (for bootloader and ISP programming).
     * **UART** header (RX, TX, VCC, GND, DTR) for serial communication and programming.
-* **Power:** 5V via USB-C connector (with 5.1k CC resistors for modern PD chargers).
+* **Power:** 5V via USB-C connector (with 5.1k CC resistors for compatibility).
 
 ---
 
@@ -32,7 +34,7 @@ Contains all files necessary for PCB manufacturing and assembly:
 * **KiCad Project:** Full schematic and PCB layout files.
 * **Schematic:** PDF version for quick reference.
 * **Manufacturing:** Gerbers and Drill files.
-* **BOM:** Bill of Materials with specific component values.
+* **BOM:** Bill of Materials.
 
 ### 💻 [FW-PF-2026](./FW-PF-2026) (Firmware)
 Contains the Arduino source code:
@@ -67,12 +69,9 @@ Connect your Arduino UNO to the ICSP header on the PF 2026 board as follows:
 
 ### 3. Uploading Firmware
 1.  Open the sketch from the `/FW-PF-2026` folder.
-2.  Keep the ICSP wires connected.
-3.  Go to **Sketch -> Upload Using Programmer** (or press `Ctrl+Shift+U`).
-
-> **Note:** Once the bootloader is burned, you can also use the **UART header** with a standard USB-TTL converter. Ensure you connect the **DTR** pin for automatic reset.
+2.  Go to **Sketch -> Upload Using Programmer** (or press `Ctrl+Shift+U`).
 
 ---
 
-## 📝 Author
-Created for the 2026 New Year celebrations. 🥂
+## 👤 Author
+**Filip Flajšinger** Created for the 2026 New Year celebrations. 🥂
